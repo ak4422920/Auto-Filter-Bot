@@ -82,7 +82,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
 # Links
 SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/+U9ABfC7hu1EyZjU1')
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/AKMovieBotz')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/Cineoriginals')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/xxxpornrxx')
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/akhowtoopenlinks")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/akhowtoopenlinks/45")
 
