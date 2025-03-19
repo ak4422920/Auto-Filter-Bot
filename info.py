@@ -61,7 +61,7 @@ if len(FORCE_SUB_CHANNELS) == 0:
     print('Info - FORCE_SUB_CHANNELS is empty')
     
 # support group
-SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '')
+SUPPORT_GROUP = environ.get('SUPPORT_GROUP', 'https://t.me/+U9ABfC7hu1EyZjU1')
 if len(SUPPORT_GROUP) == 0:
     print('Error - SUPPORT_GROUP is missing, exiting now')
     exit()
@@ -73,7 +73,7 @@ DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://ak:ak@cluster0.coguvzb
 if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
-SECOND_DATABASE_URL = environ.get('SECOND_DATABASE_URL', "")
+SECOND_DATABASE_URL = environ.get('SECOND_DATABASE_URL', "mongodb+srv://save:save@cluster0.ftlr8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 if len(SECOND_DATABASE_URL) == 0:
     print('Info - SECOND_DATABASE_URL is empty')
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
