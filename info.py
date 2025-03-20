@@ -56,7 +56,7 @@ if len(LOG_CHANNEL) == 0:
     exit()
 else:
     LOG_CHANNEL = int(LOG_CHANNEL)
-FORCE_SUB_CHANNELS = [int(fsub_channels) if fsub_channels.startswith("-") else fsub_channels for fsub_channels in environ.get('FORCE_SUB_CHANNELS', '-1002442422204').split()]
+FORCE_SUB_CHANNELS = [int(fsub_channels) if fsub_channels.startswith("-") else fsub_channels for fsub_channels in environ.get('FORCE_SUB_CHANNELS', '-1002442422204 -1001785093771').split()]
 if len(FORCE_SUB_CHANNELS) == 0:
     print('Info - FORCE_SUB_CHANNELS is empty')
     
