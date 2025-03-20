@@ -39,7 +39,7 @@ PORT = int(environ.get('PORT', '80'))
 PICS = [os.path.join('imgs', file) for file in os.listdir('imgs')]
 
 # Bot Admins
-ADMINS = environ.get('ADMINS', '1049173662 7251898668')
+ADMINS = environ.get('ADMINS', '7251898668')
 if len(ADMINS) == 0:
     print('Error - ADMINS is missing, exiting now')
     exit()
@@ -100,7 +100,7 @@ SHORTLINK_API = environ.get("SHORTLINK_API", "4ed9f7b048d0c13394d7799f605e51a11d
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 43200)) # Add time in seconds
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
-PM_FILE_DELETE_TIME = int(environ.get('PM_FILE_DELETE_TIME', '3600'))
+PM_FILE_DELETE_TIME = int(environ.get('PM_FILE_DELETE_TIME', '1200'))
 
 # boolean settings
 USE_CAPTION_FILTER = is_enabled('USE_CAPTION_FILTER', False)
